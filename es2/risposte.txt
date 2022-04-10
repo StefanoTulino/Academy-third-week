@@ -1,0 +1,17 @@
+1) Name: <h1> BLOCK
+
+2) Name: <a> INLINE
+
+3) Name: <strong> INLINE
+
+4) Name: <ul> BLOCK
+
+5) Name: <br> BLOCK
+
+6) Name: <li> BLOCK
+
+7) Name: <img> INLINE
+
+8) Name: <p> BLOCK
+
+

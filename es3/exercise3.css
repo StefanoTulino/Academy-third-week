@@ -1,0 +1,29 @@
+*{
+    background-color: darkseagreen;
+}
+
+
+#form {
+    color: black;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New';
+
+}
+
+
+
+
+#sectionForm h4 {
+    color: darkred;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Courier New';
+    border-radius: 30px;
+    font-size:26px;
+    
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="exercise11.css">
+
+</head>
+
+<body>
+
+    <h2>Questionario di raccolta dati per creare una rete</h2>
+    <pre>
+I dati indicati di seguito sono alcuni di quelli necessari da raccogliere prima di mettersi alle prese con
+la realizzazione di una rete.
+è in primo luogo necessario capire le funzione della rete,a cos'è dedicata?Quanto deve essere grande?
+Sappiamo già che ci sarà un solo modem/router?Oppure serve qualcosa di più complesso?
+Quindi è necessario capire quanti e quali sono i device che apparterranno alla rete? Quali sono le 
+caratteristiche di questi device?Infine una volta raccolti tutti i dati si puo finalmente partire con la 
+progettazione della rete.
+    </pre>
+
+    <section>
+        <h3 class="titleId">Step 1: Dati della rete</h3>
+        <form id="form" action="/" method="post">
+            
+             <h5>Nome e Cognome del Responsabile: <input type="text" id="Cognome" placeholder="Cognome" maxlength="40" /></h5>
+                 <h5>Indirizzo: <input type="text" id="Nome" placeholder="Nome" maxlength="30" /> </h5>
+                     <h5>Numero delle Sedi in Azienda: <input type="text" id="Matricola" 
+                          placeholder="Matricola"   maxlength="12" /></h5>
+                        <h5>Dati della compilazione: <input type="text" id="Cognome" placeholder="Cognome" 
+                            maxlength="40" /></h5>
+            </form>
+   
+    
+        <h3 class="titleId">Step 2: Dimensione della rete in base alla tipologia</h3>
+        <form id="form" action="/" method="post">
+          
+                <h5>LAN <input type="checkbox" id="lan"  /> </h5>
+                    <h5>MAN <input type="checkbox" id="man" /> </h5>
+                        <h5>WAN <input type="checkbox" id="man"  /> </h5>
+                            <h5>Altro <input type="text" id="Altro1" placeholder="Specificare" 
+                                maxlength="40" /></h5>
+            </form>
+    
+
+        <form id="form" action="" >
+            <h3 class="titleId">Step 3: è già nota la forma della rete(tipologia) </h3>
+            
+            <input type="radio" id="aStella" name="scelta" value="stella">
+            <label for="stella">A stella</label>
+            <input type="radio" id="aBus" name="scelta" value="bus">
+            <label for="bus">A bus</label>
+            <input type="radio" id="adAlbero" name="scelta" value="albero">
+            <label for="albero">Ad albero</label>
+            
+                    <h5>Altro <input type="text" id="Altro2" placeholder="Specificare" 
+                        maxlength="40" /></h5>
+            </form>
+    
+
+        <h3 class="titleId">Step 4: Caratteristiche del PC</h3>
+        <h3 class="date">Recupera tutti i dati del PC</h3>
+        <form id="form" action="/" method="post">
+           
+                <h5>Processore <input type="text" id="Nome" placeholder="Processore" maxlength="30" /> </h5>
+                     <h5>Ram <input type="text" id="Matricola" placeholder="RAM" /> </h5>
+                        <h5>C <input type="text" id="Cognome" placeholder="c" /> </h5>
+                            <h5>D <input type="text" id="Cognome" placeholder="d" /> </h5>
+            </form>
+
+
+    </section>
+</body>
+</html>

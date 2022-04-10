@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="exercise3.js"></script>
+    <link rel="stylesheet" href="exercise3.css">
+</head>
+
+<body>
+
+    <section id="sectionForm">
+        <h4>Form </h4>
+        <!--Si doveva inserire post ma in mancanza di un action reale, ho dovuto inserire un get-->
+        <form id="form" name="form" action="" method="get">
+            <p>
+                Cognome: <input type="text" name="Cognome" placeholder="Cognome" maxlength="40" />
+                Nome: <input type="text" name="Nome" placeholder="Nome" maxlength="30" />
+                Matricola: <input type="text" name="Matricola" 
+                    placeholder="Matricola"   maxlength="12" />
+                
+            </p>
+               
+            <p>
+                Regione: <select id="Regione" name="Regione">
+                    <option>Lombardia</option>
+                    <option>Piemonte</option>
+                    <option>Friuli-Venezia-Giulia</option>
+                    <option>Valle D'aosta</option>
+                    <option>Emilia-Romagna</option>
+                    <option>Liguria</option>
+                    <option>Toscana</option>
+                    <option>Abruzzo</option>
+                    <option>Molise</option>
+                    <option>Basilicata</option>
+                    <option>Lazio</option>
+                    <option>Campania</option>    
+                    <option>Puglia</option>
+                    <option>Calabria</option>
+                    <option>Sicilia</option>
+                    <option>Sardegna</option>
+                    <option>Umbria</option>
+                    <option>Marche</option>
+                    <option>Veneto</option>
+                    <option>Molise</option>
+                    <option>Trentino-Alto-Adige</option>
+                    </select>
+
+                Telefono: <input type="tel" name="Telefono" placeholder="Telefono" maxlength="15" />
+                Email: <input type="text" name="Email" placeholder="Email" maxlength="30" /> 
+                <br><br><br>
+            
+                Richieste particolari: <textarea name="area" rows="12" cols="60" 
+                    placeholder="Scrivi qui le tue richieste" ></textarea>
+            </p>
+                
+              <p>
+                <button name="btnOk" onclick="valida()">Invio </button>
+                <input type="reset" name="Reset" value="Reset"/>   
+              </p>
+            
+            
+        </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+* {
+    background-color: darkolivegreen; 
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+
+pre {
+    font-size: 14px;
+}
+
+
+h3 {
+    font-family: 'Arial Narrow';
+    background-color: chartreuse;
+    text-align: left;
+}
+
+.date {
+    text-align: center;
+    border-style: groove;
+    border-color: chartreuse;
+}
+
+
+
+section {
+    background-color: chartreuse;
+    border-style: groove;
+    border-color: chartreuse;
+    
+}
+
+#form {
+    color: black;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New';
+
+}
+
+ input {
+    background-color: darkgray;
+    border-style: groove;
+    border-color: darkgray;
+}
+
+
+
